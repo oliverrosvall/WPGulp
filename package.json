@@ -1,0 +1,32 @@
+{
+	"name": "wpgulp",
+	"version": "3.2.0",
+	"author": "Ahmad Awais (https://twitter.com/MrAhmadAwais/)",
+	"license": "MIT",
+	"repository": "ahmadawais/WPGulp",
+	"bin": {
+		"wpgulp": "./installer/index.js"
+	},
+	"keywords": [
+		"wpgulp",
+		"WP Gulp",
+		"WordPress Gulp",
+		"Install WPGulp",
+		"Gulp with WordPress",
+		"Gulp.js WordPress"
+	],
+	"dependencies": {
+		"chalk": "^2.4.1",
+		"clear-any-console": "^1.16.2",
+		"cli-check-node": "^1.3.4",
+		"cli-handle-unhandled": "^1.1.1",
+		"download": "^7.1.0",
+		"execa": "^1.0.0",
+		"log-symbols": "^4.0.0",
+		"ora": "^3.0.0"
+	},
+	"devDependencies": {
+		"eslint": "^5.5.0",
+		"eslint-config-wordpress": "^2.0.0"
+	}
+}
